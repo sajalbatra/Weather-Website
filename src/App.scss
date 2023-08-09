@@ -1,0 +1,46 @@
+body {
+    background: #000;
+    position:fixed;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+.Bodydiv {
+    position: relative;
+}
+
+#Bluecolor_div {
+    position: absolute;
+    border-radius: 800px;
+    background: linear-gradient(131deg, #26D0CE 0%, #1A2980 100%);
+    filter: blur(2.5px);
+    width: 500px;
+    height: 500px;
+    top: -200px;
+    left: -150px;
+}
+
+#Orangecolor_div {
+    position: fixed;
+    border-radius: 450px;
+    background: linear-gradient(90deg, #FF4E50 0%, #F9D423 100%);
+    filter: blur(2.5px);
+    backdrop-filter: blur(2.5px);
+    width: 450px;
+    height: 450px;
+    flex-shrink: 0;
+    bottom: -100px; /* Adjust this value to hide excess part */
+    right: -100px; /* Adjust this value to hide excess part */
+}
+// #Pinkcolor_div{
+//     position: fixed;
+//     fill: linear-gradient(90deg, #EC008C);
+//     backdrop-filter: blur(25px);
+//     width: 75px;
+//     height: 75px;
+//     flex-shrink: 0;
+//     top:125px;
+//     right: 203px;
+// }

@@ -1,25 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import Searchbar from './Components/Searchbar'
+import "./App.scss"
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div className='Bodydiv'>
+    <div id='Bluecolor_div'></div>
+    <div id='Orangecolor_div'></div>
+    <div id='Pinkcolor_div'></div> 
     </div>
-  );
+    
+    <Searchbar/>
+    </>
+    )
 }
 
-export default App;
+export default App

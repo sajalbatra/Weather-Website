@@ -32,16 +32,17 @@
 }
 
 .searchbutton {
-    height: 34.5px;
+    height: 35px;
     border-radius: 10px;
     margin-left: 10px;
+    width: 90px;
 }
 
 /* Media Queries */
 @media (min-width: 768px) {
     /* For desktop and tablet screens */
     .mainDiv {
-        margin-left: 30px;
+        margin-left: 20px;
     }
     
     .searchbar {

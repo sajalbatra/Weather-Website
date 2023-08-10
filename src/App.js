@@ -1,7 +1,7 @@
 import React from 'react'
-import Searchbar from './Components/Searchbar'
+import Searchbar from './Components/searchbar/Searchbar'
 import "./App.scss"
-
+//import Weatherdiv from "./Components/weatherdiv/Weatherdiv"
 const App = () => {
   return (
     <>
@@ -10,7 +10,7 @@ const App = () => {
     <div id='Orangecolor_div'></div>
     <div id='Pinkcolor_div'></div> 
     </div>
-    
+
     <Searchbar/>
     </>
     )

@@ -1,0 +1,49 @@
+.weatherdiv {
+  
+  border: 3px solid #02f0ff;
+  box-shadow: 0px 4px 0px 0px rgba(0, 0, 0, 0.25) inset;
+  border-radius: 30px;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.11) 0%, rgba(255, 255, 255, 0.22) 100%);
+  filter: blur(0px);
+  backdrop-filter: blur(25px);
+}
+
+/* Media query for phones */
+@media (max-width: 767px) {
+  .weatherdiv {
+    width: 90%; /* Adjust the width as needed */
+    height: 1190px; /* Adjust the height as needed */
+    margin: 10px auto; /* Adjust margins as needed */
+    margin-top: 15px; /* Adjust top margin for phones */
+  }
+}
+
+/* Media query for tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .weatherdiv {
+    width: 90%; /* Adjust the width as needed */
+    height: 80vh; /* Adjust the height as needed */
+    margin: 10px auto; /* Adjust margins as needed */
+    margin-top: 50px; /* Adjust top margin for tablets */
+  }
+}
+
+/* Media query for desktops */
+@media (min-width: 1024px) {
+  .weatherdiv {
+    width: 900px;
+    height: 480px;
+    margin-left: 160px;
+    margin-top: 20px;
+  }
+}
+#location{
+  color: #FFF;
+font-family: Sarabun;
+font-size: 40px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-align: center;
+text-transform: uppercase;
+}

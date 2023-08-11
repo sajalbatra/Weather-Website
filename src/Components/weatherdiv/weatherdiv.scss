@@ -43,7 +43,26 @@ font-family: Sarabun;
 font-size: 40px;
 font-style: normal;
 font-weight: 400;
-line-height: normal;
+//margin-top: -0.3px;
 text-align: center;
 text-transform: uppercase;
+}
+#temp{
+color: #FFF;
+text-align: center;
+font-family: Sarabun;
+font-size: 80px;
+font-style: normal;
+font-weight: 400;
+//margin-top: -40px;
+}
+#weatherstate{
+color: #FFF;
+text-align: center;
+font-family: Sarabun;
+font-size: 30px;
+font-style: normal;
+font-weight: 300;
+// margin-top: -89px;
+text-transform: capitalize;
 }

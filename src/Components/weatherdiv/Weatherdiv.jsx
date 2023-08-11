@@ -1,18 +1,17 @@
-import React from 'react'
-import PropTypes from 'prop-types'; // Import PropTypes for prop validation
+//import React,{useEffect,useState} from 'react'
+//import PropTypes from 'prop-types'; // Import PropTypes for prop validation
 import "./weatherdiv.scss"
 
-const Weatherdiv = ({ searchValue }) => {
-  return (
-    <div className='weatherdiv'>
-      <p id='location'>{searchValue}</p>
-    </div>
-  )
-}
+const Weatherdiv = (props) => {
 
-// Prop validation using PropTypes
-Weatherdiv.propTypes = {
-  searchValue: PropTypes.string.isRequired,
-};
+    return (
+      <div className='weatherdiv'>
+        <p id='location'>{props.searchValue}</p>
+        {props.temperature && <p id='temp'>{props.temperature}°C</p>}
+        {props.main && <p id='weatherstate'>{props.main}</p>}
+      </div>
+    );
+  }
+  
 
 export default Weatherdiv

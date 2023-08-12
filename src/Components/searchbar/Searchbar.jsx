@@ -18,7 +18,7 @@ const Searchbar = () => {
 
 
     try {
-      const geoResponse = await axios.get(`http://api.openweathermap.org/geo/1.0/direct?q=${searchValue}&limit=5&appid=9f5bff9bab134208922d4d64daf51892`);
+      const geoResponse = await axios.get(`https://api.openweathermap.org/geo/1.0/direct?q=${searchValue}&limit=5&appid=9f5bff9bab134208922d4d64daf51892`);
       
       // Check if geoResponse.data is not empty and has the expected structure
       if (geoResponse.data.length > 0 && geoResponse.data[0].lat && geoResponse.data[0].lon) {
